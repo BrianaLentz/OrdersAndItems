@@ -56,3 +56,45 @@ public class TestOrders {
         order4.displayStatus();
     }
 }
+// their solution
+// // Application Simulations
+
+//         // Add the item1 to order2's item list and increment the order's total.
+//         order2.items.add(item1);
+//         order2.total += item1.price;
+
+//         // order3 ordered a capuccino. Add the cappuccino to their order and to their tab.
+//         order3.items.add(item4);
+//         order3.total += item4.price;
+
+//         // order4 added a latte. Update accordingly.
+//         order4.items.add(item2);
+//         order4.total += item2.price;
+
+//         // Cindhuri’s order is now ready.  Update her status.
+//         order1.ready = true;
+
+//         // Sam ordered more drinks -- 2 lattes. Update their order as well.
+//         order4.items.add(item2);
+//         order4.items.add(item2);
+//         order4.total += item2.price * 2;
+
+//         // Jimmy’s order is now ready. Update his status.
+//         order2.ready = true;
+
+//         // Use this example code to test various orders' updates
+//         System.out.printf("Name: %s\n", order1.name);
+//         System.out.printf("Total: %s\n", order1.total);
+//         System.out.printf("Ready: %s\n", order1.ready);
+
+//         System.out.printf("Name: %s\n", order2.name);
+//         System.out.printf("Total: %s\n", order2.total);
+//         System.out.printf("Ready: %s\n", order2.ready);
+
+//         System.out.printf("Name: %s\n", order3.name);
+//         System.out.printf("Total: %s\n", order3.total);
+//         System.out.printf("Ready: %s\n", order3.ready);
+    
+//         System.out.printf("Name: %s\n", order4.name);
+//         System.out.printf("Total: %s\n", order4.total);
+//         System.out.printf("Ready: %s\n", order4.ready);
